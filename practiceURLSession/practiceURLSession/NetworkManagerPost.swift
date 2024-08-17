@@ -19,14 +19,14 @@ class NetworkManagerPost {
             guard let data = datos, error == nil, let response = respuesta as? HTTPURLResponse else{
                 return
             }
-        
+            
             if response.statusCode == 200 {
                 
                 do {
                     let posts = try JSONDecoder().decode([Post].self, from: data)
                     completion(posts)
                 } catch let error {
-                    print("Se ha producido un error: \(error).localizedDescription)")
+                    print("Se ha producido un error: \(error.localizedDescription)")
                 }
             }
             
