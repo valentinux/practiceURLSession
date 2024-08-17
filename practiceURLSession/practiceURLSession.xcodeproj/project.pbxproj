@@ -12,6 +12,7 @@
 		0380C5592C70EFF3003FEE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0380C5582C70EFF3003FEE2D /* Assets.xcassets */; };
 		0380C55C2C70EFF3003FEE2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0380C55B2C70EFF3003FEE2D /* Preview Assets.xcassets */; };
 		0380C5632C70F03F003FEE2D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0380C5622C70F03F003FEE2D /* Post.swift */; };
+		0380C5652C70F403003FEE2D /* NetworkManagerPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0380C5642C70F403003FEE2D /* NetworkManagerPost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		0380C5582C70EFF3003FEE2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0380C55B2C70EFF3003FEE2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0380C5622C70F03F003FEE2D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0380C5642C70F403003FEE2D /* NetworkManagerPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerPost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				0380C5582C70EFF3003FEE2D /* Assets.xcassets */,
 				0380C55A2C70EFF3003FEE2D /* Preview Content */,
 				0380C5622C70F03F003FEE2D /* Post.swift */,
+				0380C5642C70F403003FEE2D /* NetworkManagerPost.swift */,
 			);
 			path = practiceURLSession;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				0380C5632C70F03F003FEE2D /* Post.swift in Sources */,
 				0380C5572C70EFF2003FEE2D /* ContentView.swift in Sources */,
+				0380C5652C70F403003FEE2D /* NetworkManagerPost.swift in Sources */,
 				0380C5552C70EFF2003FEE2D /* practiceURLSessionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
